@@ -1,0 +1,104 @@
+on-1 off-0------------------->Ascii/Unicode
+
+s.l :- designing of websites
+
+p.l :- developing of softwares
+
+							computer languages
+				
+				Scripting languages			programming languages
+			
+			html,css,js,........			pop				oop
+									basic,.......		java,.net........
+									
+									
+Security :- Abstraction,Encapsulation
+
+Performance :- Inheritance,Polymorphism
+
+
+java:- 		oopl -------->   oops
+======
+
+(1)Portable
+
+
+(2)Garbage Collector
+
+sunmicrosystems                                  oracle
+
+greentalk(.gt)------------------->oak --------->java(.java)
+
+jdk 1.0------------------------------------------> jdk 24
+
+to check java version in pc :- java --version
+
+
+jse/j2se:- core java  - standalone
+
+jee/j2ee:- adv java   - web/distributed
+
+jme/j2me:- micro java - mobile
+
+53
+
+variables :- 
+
+		syntax:- 
+
+				datatype varname ; //declaration
+				
+				datatype varname = value; //initilization
+				
+				
+	2 types :- 
+	
+	
+	local variable(inside the method) 	global variable(outside the method)
+				
+				
+									static 				instance
+									
+syntax :- 
+=======
+
+static -  static datatype variable = value;
+
+instance -  datatype variable = value;
+
+
+access :- 
+========
+static -  Static prop's can be accessed by the class reference
+
+instance -Instance prop's can be accessed by the object reference
+
+			syntax :- classname objname = new classname();
+
+memory space :- 
+=============
+
+static - Static prop's will gets the memory space only once when the class loading into the jvm
+
+instance -Instance prop's will gets the memory space for every object creation.
+
+
+usage :- 
+=======
+static - Static prop's can used to store the common data
+
+instance - Unique data
+
+
+
+in the memory:- 									
+
+static - Method Area
+
+instance -Heap Area
+	
+	
+				
+				
+				
+				
