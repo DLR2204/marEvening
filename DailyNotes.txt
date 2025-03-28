@@ -98,7 +98,120 @@ static - Method Area
 instance -Heap Area
 	
 	
+	Operators :- 		ULTRA AB
+	----------
+	
+	a    +(operators)      b(operands)
+	
+	Uninary Operator
+	
+	Logical Operator
+	
+	Terinary Operator
+	
+	Relational Operator
+	
+	Assignment Operator
+	
+	Arithematic Operator
+	
+	Bitwise Operator
+	
+				
+	Flow Control :- 
+-----------------	
+		(1)Conditional 
+
+		(2)Loops
+		
+		(3)Transfer 
+		
+		
+		
+Method:- set of statements where altogether will performs the task
+------
+
+syntax:-    accessModifier  returntype  methodName(params....){
+
+			//body
+				}
+
+based on the syntax :- 2 types 
+
+			(1)Static method
+			
+	syntax:-    accessModifier static returntype  methodName(params....){
+
+			//body
+				}		
+			
+			
+			(2)Dynmaic method
+			
+	syntax:-    accessModifier  returntype  methodName(params....){
+
+			//body
+				}
 				
 				
+class = variable(class members) + methods(member functions) 
+	
+	
+	Inheritance:- Accquiring parent class  prop's to the child class
+	------------
+	
+							*Code Reusability
 				
+				extends 						implements
+				class--->class					interface----->class
 				
+		class A{    //  parent /super
+		
+		1000 methods
+		
+		}
+		
+		class B extends A{  //child/base/sub
+		
+		1000 methods
+		
+		
+		
+		class A{			class B{
+		
+		
+		add(int a,int b)     add(int a,int b){  
+		
+		a+b;				a*b;
+						
+		}}						}}
+	
+	class C extends A,B{
+	
+	
+	add(6,4);--------------->
+	
+	
+	*M.I is not in java supported @ class level
+	
+	*M.I is supported in java @ interface level
+	
+	
+	Methods - based on the implementations :- 2 types
+	-------
+	(1)concrete methods :- methods with method body/implementation
+	
+		syntax:-    accessModifier  returntype  methodName(params....){
+
+			//body
+				}
+	
+	
+	(2)abstract methods :- method with out method body/implementation
+	
+		syntax:-    accessModifier  returntype  methodName(params....);
+		
+		
+		class = only collection of concrete methods
+		
+		interface = only collection of abstracts methods
