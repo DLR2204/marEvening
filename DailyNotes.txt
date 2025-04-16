@@ -214,4 +214,81 @@ class = variable(class members) + methods(member functions)
 		
 		class = only collection of concrete methods
 		
+		abstract class = concrete methods + abstract methods
+		
 		interface = only collection of abstracts methods
+		
+
+	Abstration:- Hide the data
+	----------			
+				
+				* Security
+				
+	interface - 100% 
+	
+	abstract classes - 0%-100%
+	
+	class - 0%
+	
+	
+	polymorphism:- *Performance
+	============
+	
+	(1)MethodOverloading:- method name is same but with diff params
+							
+							(a)type of params
+							(b)order of params
+							(c)number of params
+	
+	
+	(2)MethodOverriding :- method name is same but with diff implementation/body
+	
+	
+		class Parent{
+		
+		1000Cr()
+		
+		marriage(){kajol}
+		
+		relatives()
+		
+		}
+		
+		class Child extends Parent{
+		
+		@Override
+		
+		}
+		
+		Encapsulation :- it will wraps the data into a single unit
+		-------------
+		
+		
+		the default parent class for every java class is :- java.lang.Object;
+		
+		The default package for every java file:- java.lang;
+		
+		
+		Constructor:- It will intializes the object
+		------------
+		
+		(1)default constructor
+		
+		syntax:- 
+		
+				a.m className(){
+				//body
+				}
+		
+		
+		(2)parametrized constructor
+		
+		syntax:- 
+		
+				a.m className(params...){
+				//body
+				}
+				
+				
+				
+	**Constructor call must be the first statement in a constructor
