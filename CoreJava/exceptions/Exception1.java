@@ -16,11 +16,21 @@ public class Exception1 {
 
 		int den = scan.nextInt();
 		
+		try {
 		int result = num /den;
 		
 		System.out.println("The result is :- "+result);
 		
-		System.out.println("The remaning 10,000 lines");
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Please don't enter zero as the denominator");
+		}
+		finally {
+			System.out.println("Iam from the finally block!!!!");
+		}
+		
+		System.out.println("The remaining 10,000 lines");
+		
 	}
 
 }
