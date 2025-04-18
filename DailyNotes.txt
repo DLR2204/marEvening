@@ -292,3 +292,17 @@ class = variable(class members) + methods(member functions)
 				
 				
 	**Constructor call must be the first statement in a constructor
+	
+	
+	FileHandling :-  java.io;
+	------------
+	
+	(1)To create a file :-       File
+	
+	(2)To write into the file :- FileWriter
+								 BufferedWriter
+								 PrintWriter
+								 
+	(3)To read from the file :-  FileReader
+								 BufferedReader
+								 
