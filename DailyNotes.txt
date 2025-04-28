@@ -306,3 +306,93 @@ class = variable(class members) + methods(member functions)
 	(3)To read from the file :-  FileReader
 								 BufferedReader
 								 
+								 
+								 
+	Array:- The collection of homogenous data
+	
+	
+	syntax:- 
+	
+			int arr[] = new int[10];
+			
+			int []arr = new int[]{1,1,1,1,1,1,1,1};
+			
+			int[] arr = {1,2,3,4,5,6,67,7,7,87}
+			
+			
+	(1)only homogenous data can be injected
+	
+	(2)no utility methods
+	
+	(3)fixed in size
+	
+	
+	collection :- framework   [util]
+	=============
+	
+	(1)both heterogenous/ homogenous data can be injected
+	
+	(2)lots of utility methods
+	
+	(3)not fixed in size
+	
+	
+	String:- 
+	====-==
+	
+	String 				StringBuffer				StringBuilder
+	
+	immutable(scp)			mutable						mutable
+	
+							sync						non-sync
+							
+	MutliThreading :- running multiple threads(unit task) at a time .
+	
+	
+	
+	Junit:-  java unit testing
+	======
+	
+	
+									Database:- 
+									=========
+	
+	
+	     berry     123 
+		 pear      233
+		 guva      293
+		 apple     234	
+		 
+		 
+		 RDBMS :- Table = row (records) + column (fields)
+		 
+		 
+		 Query:- A command to perfom any operation in the db.5 types
+		 
+		 
+		 DDL (Data definition Lang) :- create,alter,rename,truncate,drop  [auto committed]
+		 
+		 DML(Data Manipulation Lang):- insert,update,delete  [not auto committed]
+		 
+		 DRL (Data Retrival Lang):- select 
+		 
+		 DCL(Data Control Lang):- grant,revoke
+		 
+		 TCL(Transtraction Control Lang):- commit,rollback
+		 
+		 
+		
+cmd> conn /as sysdba;
+
+cmd> create user username identified by password;
+
+cmd> grant connect, resource to username;
+
+cmd> conn username/password		      ------>Login
+		 
+		 
+	truncate :- it will eraises the data in the table
+	
+	delete :- it will deletes all the data(or) mentioned data in the table. 
+
+	drop :- it will deletes the entire table
