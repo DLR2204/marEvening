@@ -396,3 +396,52 @@ cmd> conn username/password		      ------>Login
 	delete :- it will deletes all the data(or) mentioned data in the table. 
 
 	drop :- it will deletes the entire table
+	
+								jdbc:- 
+								-----
+								
+	(1)Loading the driver classes
+	
+	(2)Create the connection
+	
+	(3)Create the statement
+	
+	(4)Exceute the statement
+	
+	(5)Close the connections
+	
+	
+	limitations :- 
+	------------
+	
+	(1)sql queries
+	
+	(2)table creation
+	
+	(3)same file for db prop's , logic
+	
+	(4)boilers plate code[repeated code]
+	
+	
+	jpa[java persistence api]  -->specifications
+	---
+	
+	(1)no sql queries
+	
+	(2)no table creation
+	
+	(3)diff file for db prop's , logic
+	
+	(4)no boilers plate code[repeated code]
+	
+	
+	ORM Tools ---Implementations  :- hibernate,ecllipse link,ibatis,toplink..........
+	
+	(1)no sql queries  ---- equivalent methods
+	
+	(2)no table creation  --- class
+	
+	(3)diff file for db prop's , logic  ---- db -> xml file; logic -> java file
+	
+	(4)no boilers plate code[repeated code]
+	
