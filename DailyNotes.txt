@@ -439,9 +439,93 @@ cmd> conn username/password		      ------>Login
 	
 	(1)no sql queries  ---- equivalent methods
 	
-	(2)no table creation  --- class
+	(2)no table creation  --- 
+	
+	
+	class-----> table
+	
+	variables -----> columns
+	
+	objects ------>row
 	
 	(3)diff file for db prop's , logic  ---- db -> xml file; logic -> java file
 	
 	(4)no boilers plate code[repeated code]
 	
+	
+	tag  :- 2 types
+	
+	container/pair :-  <predefined word></predefined word>
+	
+	single/empty:- <predefined word> or </predefined word>
+	
+	
+	
+	maven :- build tool
+	
+	
+									Spring:- 
+									======
+	
+	def:- Spring is a non-invasive framework which is used to develop light-weighted and
+	
+				loosely coupled web app's.
+				
+				
+			invasive:- it will rushes the programmer to use inbuilt api
+
+			non-invasive :- it will not rushes the programmer to use the inbuilt api.
+			
+			
+			heavy-weighted :- 
+			
+			
+			class A{
+			
+			10000 methods
+			}
+			
+			class B extends A{
+			10 methods
+			}
+			
+			class C extends B{
+			 
+			 1 method + 10 = 11 Methods
+			
+			}
+			
+			
+			Tightly-coupled:- if the dependencies b/n the classes are very high 
+			
+			loosley coupled :- If the dependencies b/n the classes are very low
+			
+			
+	SpringCore,SpringBoot,Spring DataJpa,Spring Rest,Spring Security....................
+	
+	
+							SpringCore:- 
+							----------
+		It will avoid the dependencies b/n classes(by stopping object creation manullay)
+		
+		
+		Containers:- will creates the objects
+		
+					(1)ApplicationContext
+	
+					(2)BeanFactory
+					
+					
+		DependencyInjection:- Passing the data into the objects
+		
+					(1)Setter Injection. <property></property>
+					
+					(2)Constructor Injection.  <constructor-arg></constructor-arg>
+					
+					
+		
+		Configurations:- 
+		
+						(1)Xml Configuration
+						
+						(2)Annotation Configuration
