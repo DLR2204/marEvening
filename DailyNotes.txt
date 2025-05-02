@@ -522,6 +522,7 @@ cmd> conn username/password		      ------>Login
 					
 					(2)Constructor Injection.  <constructor-arg></constructor-arg>
 					
+					(3)Autowired
 					
 		
 		Configurations:- 
@@ -529,3 +530,17 @@ cmd> conn username/password		      ------>Login
 						(1)Xml Configuration
 						
 						(2)Annotation Configuration
+						
+						
+						
+		SpringBoot:-
+		----------
+		
+		
+		(1)AutoConfiguration  
+		
+		(2)Embedder Server :- tomcat 8080
+		
+		(3)Starters :- Set of jar files
+		
+		(4)Actuators :- It will gives the status of our app through end point urls.
