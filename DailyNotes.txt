@@ -544,3 +544,10 @@ cmd> conn username/password		      ------>Login
 		(3)Starters :- Set of jar files
 		
 		(4)Actuators :- It will gives the status of our app through end point urls.
+		
+		
+		Controller :- it is used to interact with the browser throught http url's.
+		
+		dao/repo :- it is used to interact with the db
+		
+		service :- it is the mediator b/n controller and dao.
