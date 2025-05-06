@@ -551,3 +551,39 @@ cmd> conn username/password		      ------>Login
 		dao/repo :- it is used to interact with the db
 		
 		service :- it is the mediator b/n controller and dao.
+		
+		
+		
+		Spring Rest:- 
+		
+		webservices :- It is used to make interaction possible b/n two interoperable app's.
+		
+		(1)Soap :- The common lang used is XML
+		
+		
+		(2)Rest :- The common lang used is :- Xml,html,json,php,txt........
+		
+		
+								FrontEnd:- 
+								========
+								
+			website :- collection of webpages
+			
+					(1)Static WebPage:- The changes are stagnant ex:- Registration 
+					
+					(2)Dynamic WebPage:-The changes will happens regular
+					
+					(3)Server WebPage:- the data from the dynamic and server webpage will gets stored here.
+					
+					
+			
+			HTML:- 	Hyper Text Markup Lang
+			----
+			
+			tag  :- 2 types
+	
+	container/pair :-  <predefined word></predefined word>
+	
+	single/empty:- <predefined word> or </predefined word>
+			
+			
