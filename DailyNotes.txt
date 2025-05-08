@@ -589,3 +589,14 @@ cmd> conn username/password		      ------>Login
 			
 			
 			<h1 attributes = "values">Hello Shilpa</h1>  ---------->element in html
+			
+			
+								Css(Cascading Style Sheets)
+								===========================
+								
+								
+		(1)Inline Styling :- Style attribute inside the opening tag
+		
+		(2)Internal Styling :- <style> inside the <head>]
+		
+		(3)External Styling :- attaching .css file to the .html file
