@@ -600,3 +600,56 @@ cmd> conn username/password		      ------>Login
 		(2)Internal Styling :- <style> inside the <head>]
 		
 		(3)External Styling :- attaching .css file to the .html file
+		
+		selectors :- 
+		==========
+		
+		(1)tag name :-  h1,h2
+		
+		(2)id name:-  #idName
+		
+		(3)class name :-   .ClassName
+		
+		(4)Universal :-   *
+		
+		
+		
+							javascript:- 
+							===========
+		
+		(1)Dynamic & Interactive webpages
+		
+		(2)To change the html elements
+		
+		(3)TO change the html attributes
+		
+		(4)TO change the css Styling
+		
+		(5)To hide the data 
+		
+		(6)To develop responsive webpages
+		
+		
+		identifiers 
+		
+		outputs in js :- 
+		----------------
+		
+		(1)innerHTML  --the given data will be displayed from the html tag in the webpage
+		
+		(2)document.write() --the given data in write function will be displayed  in the webpage
+		
+		(3)window.alert()--the given data in the alert fun will be displayed like the alert msg
+		
+		(4)console.log()--the given data will be displayed  in the console window
+		
+		
+------>(1)Internal scripting :- <script> inside the head or body tags
+
+------>(2)External Scripting :- attaching .js file to the html doc.
+		
+		variables
+		
+		datatypes
+		
+		flow controls
