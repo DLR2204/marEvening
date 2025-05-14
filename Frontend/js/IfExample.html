@@ -7,7 +7,7 @@
     <script>
         function valid(){
 
-            if(age>18){
+            if(document.getElementById("age").value>18){
                 document.write("You are eligible to vote.....");
             }
             else{
@@ -20,6 +20,8 @@
 </head>
 <body>
     <h1 align="center">Check Age Validation</h1>
+
+    <input type="text" id="age">
 
     <button type="button" onclick="valid()">check</button>
 
