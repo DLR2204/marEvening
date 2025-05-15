@@ -653,3 +653,32 @@ cmd> conn username/password		      ------>Login
 		datatypes
 		
 		flow controls
+		
+		
+		
+		------>bootstrap:- 
+		
+		(1)cdn(content delivery network)
+		
+		(2)downloading the bootstrap
+		
+		Grid System :- Cotainer 
+		
+			row :- row
+			
+		column :- col
+		
+		Navbar :- 
+		
+		<nav>
+		navbar
+		nav
+		
+		
+		lists :- 
+		
+			(1)Unordered list :- Bullets <ul></ul>
+			(2)Ordered List :- Numbering  <ol></ol>
+		
+		
+		
