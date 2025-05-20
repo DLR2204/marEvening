@@ -1,0 +1,13 @@
+.movie-section{
+
+    margin:10px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-radius: 3px;
+    width:1200px;
+    margin-left: 80px;
+    display: flex ;
+    justify-content: center;
+    padding-left: 30px;
+    
+    margin-bottom: 60px;
+}
