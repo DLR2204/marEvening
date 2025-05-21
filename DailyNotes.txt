@@ -703,5 +703,13 @@ cmd> conn username/password		      ------>Login
 					(2)Stateful class component    [js calss]
 					
 					
-					
+		
+		State :-memory location to store  Variables 
+		
+		methods :- set of statements where altogether will performs a task
+		
+		
+		
+		
+		
 		 
