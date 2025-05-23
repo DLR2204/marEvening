@@ -1,0 +1,13 @@
+.Parent{
+    padding: 120px;
+    border-style:solid ;
+    margin: 30px;
+}
+
+.Child{
+    padding: 50px;
+    border-radius: 50px ;
+    border-style: double;
+    background-color: lightgrey;
+    margin: 30px;
+}
